@@ -12,7 +12,14 @@ To perform object segmentation using Mask-RCNN, RESNEXT 101 as backbone.
 
 # Environment Setup
 The default running environment is **Google Colab**. Using **G4** GPU.
-Use the command to install packages needed:
+
+
+If running on Colab, only imagecodecs requires additionally installed.
+'
+pip install imagecodecs
+'
+
+Otherwise, use the command to install packages needed:
 
 `
 pip install -r requirements.txt
