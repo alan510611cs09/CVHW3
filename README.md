@@ -15,9 +15,10 @@ The default running environment is **Google Colab**. Using **G4** GPU.
 
 
 If running on Colab, only imagecodecs requires additionally installed.
-'
+
+`
 pip install imagecodecs
-'
+`
 
 Otherwise, use the command to install packages needed:
 
